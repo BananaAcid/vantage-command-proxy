@@ -29,7 +29,7 @@
   "optionalDependencies": {
   },
   "dependencies": {
-    "vantage": ">=1.5.1",
+    "vantage": ">=1.5.1"
   },
   "engines": {
     "node": ">= 4.2.1",
