@@ -1,0 +1,54 @@
+{
+  "name": "vantage-command-proxy",
+  "version": "1.0.0",
+  "description": "Info Proxy for vantage.js commands",
+  "main": "./lib/repl-mysql.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BananaAcid/vantage-command-proxy.git"
+  },
+  "keywords": [
+    "api",
+    "cli",
+    "vantage",
+    "vantagejs",
+    "proxy"
+  ],
+  "author": {
+    "name": "BananaAcid"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BananaAcid/vantage-command-proxy/issues"
+  },
+  "homepage": "https://github.com/BananaAcid/vantage-command-proxy#readme",
+  "devDependencies": {
+  },
+  "optionalDependencies": {
+  },
+  "dependencies": {
+    "vantage": ">=1.5.1",
+    "mysql": "2.9.0",
+    "strip-ansi": ">=3.0.0",
+    "chalk": "1.1.1"
+  },
+  "engines": {
+    "node": ">= 4.2.1",
+    "iojs": ">= 1.0.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": false
+    },
+    "rules": {
+      "no-underscore-dangle": 0,
+      "no-process-exit": 0
+    }
+  }
+}
