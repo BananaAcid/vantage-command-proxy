@@ -2,7 +2,7 @@
   "name": "vantage-command-proxy",
   "version": "1.0.0",
   "description": "Info Proxy for vantage.js commands",
-  "main": "./lib/repl-mysql.js",
+  "main": "./lib/command-proxy.js",
   "scripts": {
   },
   "repository": {

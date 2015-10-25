@@ -17,9 +17,9 @@ npm install vantage-command-proxy
 ```js
 // index.js
 
-// path: where to find your module's package.json 
+// path: where to find your module's package.json (__dirname if the json is next to this script)
 // cmd: what 'base' cmd should be used for the version command
-var Vantage = require('./lib/command-proxy.js')(require('vantage')(), {path:'..', cmd:'test'})
+var Vantage = require('vantage-command-proxy')(require('vantage')(), {path:__dirname, cmd:'test'})
   ;
 
 
